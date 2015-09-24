@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingViewController.h
 //  TipCalculatorPro
 //
 //  Created by Kunpeng Liu on 9/22/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@end
+@interface SettingViewController : UIViewController
 
+@end

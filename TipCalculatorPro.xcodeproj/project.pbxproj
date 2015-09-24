@@ -14,6 +14,8 @@
 		E16C804F1BB1C695002F641D /* TipCalculatorPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E16C804D1BB1C695002F641D /* TipCalculatorPro.xcdatamodeld */; };
 		E16C80511BB1C695002F641D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16C80501BB1C695002F641D /* Assets.xcassets */; };
 		E16C80541BB1C695002F641D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16C80521BB1C695002F641D /* LaunchScreen.storyboard */; };
+		E192B8A61BB3652600B06533 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E192B8A51BB3652600B06533 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		E1D0526C1BB261620077EBEE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D0526B1BB261620077EBEE /* SettingViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		E16C80501BB1C695002F641D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16C80531BB1C695002F641D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16C80551BB1C695002F641D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E192B8A51BB3652600B06533 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1D0526A1BB261620077EBEE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E1D0526B1BB261620077EBEE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 		E16C80351BB1C695002F641D = {
 			isa = PBXGroup;
 			children = (
+				E192B8A51BB3652600B06533 /* README.md */,
 				E16C80401BB1C695002F641D /* TipCalculatorPro */,
 				E16C803F1BB1C695002F641D /* Products */,
 			);
@@ -65,6 +71,8 @@
 				E16C80471BB1C695002F641D /* ViewController.h */,
 				E16C80481BB1C695002F641D /* ViewController.m */,
 				E16C804A1BB1C695002F641D /* Main.storyboard */,
+				E1D0526A1BB261620077EBEE /* SettingViewController.h */,
+				E1D0526B1BB261620077EBEE /* SettingViewController.m */,
 				E16C80501BB1C695002F641D /* Assets.xcassets */,
 				E16C80521BB1C695002F641D /* LaunchScreen.storyboard */,
 				E16C80551BB1C695002F641D /* Info.plist */,
@@ -153,10 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E192B8A61BB3652600B06533 /* README.md in Sources */,
 				E16C80491BB1C695002F641D /* ViewController.m in Sources */,
 				E16C804F1BB1C695002F641D /* TipCalculatorPro.xcdatamodeld in Sources */,
 				E16C80461BB1C695002F641D /* AppDelegate.m in Sources */,
 				E16C80431BB1C695002F641D /* main.m in Sources */,
+				E1D0526C1BB261620077EBEE /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculatorPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gh.TipCalculatorPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculatorPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gh.TipCalculatorPro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,6 +315,7 @@
 				E16C805A1BB1C695002F641D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
